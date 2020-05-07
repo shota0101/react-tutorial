@@ -12,4 +12,7 @@
 
 > 開発者向けツールを CodePen で動作させるには追加のステップが必要
 
+> React 用語でいうと、Square コンポーネントは制御されたコンポーネント (controlled component) になった
+
+
 - [続きはここから](https://ja.reactjs.org/tutorial/tutorial.html#declaring-a-winner)
