@@ -16,4 +16,6 @@
 
 > 関数コンポーネントとは、render メソッドだけを有して自分の state を持たないコンポーネントを、よりシンプルに書くための方法
 
-- [続きはここから](https://ja.reactjs.org/tutorial/tutorial.html#declaring-a-winner)
+- 続き
+  - [「タイムトラベル機能の追加」から](https://ja.reactjs.org/tutorial/tutorial.html#adding-time-travel)
+
