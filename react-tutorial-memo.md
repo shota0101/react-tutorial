@@ -14,5 +14,6 @@
 
 > React 用語でいうと、Square コンポーネントは制御されたコンポーネント (controlled component) になった
 
+> 関数コンポーネントとは、render メソッドだけを有して自分の state を持たないコンポーネントを、よりシンプルに書くための方法
 
 - [続きはここから](https://ja.reactjs.org/tutorial/tutorial.html#declaring-a-winner)
