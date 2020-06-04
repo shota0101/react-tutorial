@@ -1,6 +1,6 @@
-import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import React, { useState } from "react";
 
 function Square(props) {
   return (
@@ -108,6 +108,19 @@ function calculateWinner(squares) {
   return null;
 }
 
+function Counter({ initialCount = 1 }) {
+  const [count, setCount] = useState(initialCount);
+  console.log("Counterの呼び出し");
+  return (
+    <>
+      Count: {count}
+      <button onClick={() => setCount(initialCount)}>Reset</button>
+      <button onClick={() => setCount((prevCount) => prevCount - 1)}>-</button>
+      <button onClick={() => setCount((prevCount) => prevCount + 1)}>+</button>
+    </>
+  );
+}
+
 // ========================================
 
-ReactDOM.render(<Game />, document.getElementById("root"));
+ReactDOM.render(<Counter params={1} />, document.getElementById("root"));
